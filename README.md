@@ -8,7 +8,7 @@ This package provides very simple wrapper methods for creating HTML tags in clie
 
 ```js
 var tags = require('tags');
-var html = ''
+var html = '';
 
 html += tags.div(tags.p('This is a paragraph inside a div!'));
 html += tags.h1('this is now a title appended to the end!');
@@ -43,6 +43,8 @@ The module includes all standard HTML 5 tags by default, but you can extend thes
 tags('foobar');
 
 tags.foobar('bimbaz');
+
+> "<foobar>bimbaz</foobar>"
 ```
 
 
