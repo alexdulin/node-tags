@@ -58,6 +58,10 @@ tags.foobar('bimbaz');
 > "<foobar>bimbaz</foobar>"
 ```
 
+## Contributing
+
+Please create a pull request with any changes you feel would be beneficial. This package is extermely simple by design, as I only intend for it to serve a single purpose: building html tags without having to write the opening and closing of tags and simplifying adding attributes. Any extensions beyond this would probably be unnecessary and beyond the scope of this module. Keep it lightweight!
+
 
 ## TODO
 1. Make documentation.
