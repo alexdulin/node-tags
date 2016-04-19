@@ -1,4 +1,7 @@
 # node-tags - HTML tag builder.
+
+[![npm package](https://nodei.co/npm/tagtools.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/tagtools/)
+
 Node module for creating HTML tags inspired by the R package [htmltools](https://cran.r-project.org/web/packages/htmltools/index.html).
 
 ## install me!
