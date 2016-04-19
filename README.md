@@ -5,7 +5,6 @@ Node module for creating HTML tags inspired by the R package [htmltools](https:/
 
 ```bash
 npm install --save tagtools
-
 ```
 
 ## How to use
@@ -36,8 +35,7 @@ html += tags.a('And from an object!!?', {
 
 
 // End result!
-> "'<div><p>This is a paragraph inside a div!</p></div><h1>this is now a title appended to the end!</h1><a href="https://google.com">and here is a link with attrib
-utes!</a><a href="https://google.com" target="_blank">Attributes from an array?</a><a href="https://google.com" target="_blank">And from an object!!?</a>'"
+> "'<div><p>This is a paragraph inside a div!</p></div><h1>this is now a title appended to the end!</h1><a href="https://google.com">and here is a link with attributes!</a><a href="https://google.com" target="_blank">Attributes from an array?</a><a href="https://google.com" target="_blank">And from an object!!?</a>'"
 
 ```
 
