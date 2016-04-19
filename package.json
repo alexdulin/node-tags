@@ -1,25 +1,28 @@
 {
-  "name": "node-tags",
+  "name": "htmltags",
   "version": "0.0.1",
+  "author": "Alex Dulin",
+  "license": "MIT",
   "description": "Node module for building HTML tags",
   "main": "index.js",
+  "engines": {
+    "node": ">=0.12.13"
+  },
   "scripts": {
     "test": "node test.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alexdulin/node-tags.git"
+    "url": "https://github.com/alexdulin/node-tags.git"
   },
-  "keywords": [
-    "HTML",
-    "tags"
-  ],
-  "author": "Alex Dulin",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alexdulin/node-tags/issues"
   },
   "homepage": "https://github.com/alexdulin/node-tags#readme",
+  "keywords": [
+    "HTML",
+    "tags"
+  ],
   "dependencies": {
     "underscore": "^1.8.3"
   }
