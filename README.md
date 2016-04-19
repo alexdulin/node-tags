@@ -4,7 +4,7 @@ Node module for creating HTML tags inspired by the R package [htmltools](https:/
 ## install me!
 
 ```bash
-npm install --save htmltags
+npm install --save tagtools
 
 ```
 
@@ -13,7 +13,7 @@ npm install --save htmltags
 This package provides very simple wrapper methods for creating HTML tags in client side code or in server applications. It provides simple methods for creating HTML tags as string without needing to write repetitive code like `'<h1>' + 'this is my text' + '</h1>'`. 
 
 ```js
-var tags = require('htmltags');
+var tags = require('tagtools');
 var html = '';
 
 html += tags.div(tags.p('This is a paragraph inside a div!'));
