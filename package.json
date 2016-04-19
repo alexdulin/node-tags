@@ -9,7 +9,8 @@
     "node": ">=0.12.13"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "lint": "jshint . || true"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,11 @@
   ],
   "dependencies": {
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "jshintConfig": {
+    "node": true
   }
 }

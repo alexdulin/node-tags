@@ -55,14 +55,16 @@ function checkAttributes (attributes) {
 // @param name {string} The name of the tag to create.
 //
 function addTag (name) {
-  return tags[name] = function(context, attributes) {
+  tags[name] = function (context, attributes) {
     context = context || "";
     
     attributes = checkAttributes(attributes);
       
     return '<' + (name + attributes) + '>' + context + '</' + name + '>';
   };
-};
+  
+  return tags[name];
+}
 
 
 
