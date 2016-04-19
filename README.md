@@ -1,13 +1,19 @@
 # node-tags - HTML tag builder.
 Node module for creating HTML tags inspired by the R package [htmltools](https://cran.r-project.org/web/packages/htmltools/index.html).
 
+## install me!
+
+```bash
+npm install --save htmltags
+
+```
 
 ## How to use
 
 This package provides very simple wrapper methods for creating HTML tags in client side code or in server applications. It provides simple methods for creating HTML tags as string without needing to write repetitive code like `'<h1>' + 'this is my text' + '</h1>'`. 
 
 ```js
-var tags = require('tags');
+var tags = require('htmltags');
 var html = '';
 
 html += tags.div(tags.p('This is a paragraph inside a div!'));
